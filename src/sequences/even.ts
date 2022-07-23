@@ -1,5 +1,5 @@
 import defaults from '../defaults'
-import { iterateMember } from '../iterate'
+import { iterateMember } from './iterate'
 import { Sequence, SequenceFirst, SequenceMember } from '../types'
 
 export const evenFirst: SequenceFirst = 0

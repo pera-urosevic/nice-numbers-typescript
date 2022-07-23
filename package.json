@@ -1,13 +1,17 @@
 {
   "name": "nice-numbers",
-  "version": "0.1.0",
-  "description": "Generate integer sequences",
+  "version": "0.2.0",
+  "description": "Integer sequences, number types and more",
   "keywords": [
     "nice",
     "numbers",
-    "integer",
     "sequences",
     "series",
+    "sets",
+    "prime",
+    "positive",
+    "negative",
+    "integer",
     "cube",
     "even",
     "factorial",
@@ -38,7 +42,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
+    "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {

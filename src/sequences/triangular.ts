@@ -1,5 +1,5 @@
 import defaults from '../defaults'
-import { iterateNext } from '../iterate'
+import { iterateNext } from './iterate'
 import { Sequence, SequenceFirst, SequenceMember, SequenceNext } from '../types'
 
 export const triangularFirst: SequenceFirst = 0

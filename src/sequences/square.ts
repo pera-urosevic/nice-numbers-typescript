@@ -1,5 +1,5 @@
 import { Sequence, SequenceFirst, SequenceMember, SequenceNext } from '../types'
-import { iterateMember } from '../iterate'
+import { iterateMember } from './iterate'
 import defaults from '../defaults'
 
 export const squareFirst: SequenceFirst = 1

@@ -1,4 +1,4 @@
-import { SequenceNext } from '../types'
+import { SequenceNext } from '../../types'
 
 export const iterateNext = (initial: number[], sequenceNext: SequenceNext, start: number, length: number) => {
   const end = start + length

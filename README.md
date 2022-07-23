@@ -10,6 +10,76 @@ $ npm i nice-numbers
 
 ## Usage
 
+### Checks
+
+#### Composite https://en.wikipedia.org/wiki/Composite_number
+
+```typescript
+checkComposite(number: number) => boolean
+```
+
+#### Cube https://en.wikipedia.org/wiki/Cube_(algebra)
+
+```typescript
+checkCube(number: number) => boolean
+```
+
+#### Even https://en.wikipedia.org/wiki/Parity_(mathematics)
+
+```typescript
+checkEven(number: number) => boolean
+```
+
+#### Factorial https://en.wikipedia.org/wiki/Factorial
+
+```typescript
+checkFactorial(number: number) => boolean
+```
+
+#### Fibonacci https://en.wikipedia.org/wiki/Fibonacci_number
+
+```typescript
+checkFibonacci(number: number) => boolean
+```
+
+#### Negative https://en.wikipedia.org/wiki/Negative_number
+
+```typescript
+checkNegative(number: number) => boolean
+```
+
+#### Odd https://en.wikipedia.org/wiki/Parity_(mathematics)
+
+```typescript
+checkOdd(number: number) => boolean
+```
+
+#### Prime https://en.wikipedia.org/wiki/Prime_number
+
+```typescript
+checkPrime(number: number) => boolean
+```
+
+#### Positive https://en.wikipedia.org/wiki/Positive_real_numbers
+
+```typescript
+checkPositive(number: number) => boolean
+```
+
+#### Square https://en.wikipedia.org/wiki/Square_number
+
+```typescript
+checkSquare(number: number) => boolean
+```
+
+### Sequences
+
+#### Cube http://oeis.org/A000578
+
+```typescript
+cubeSequence(start?: number, length?: number) => number[]
+```
+
 #### Cube http://oeis.org/A000578
 
 ```typescript

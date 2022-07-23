@@ -1,4 +1,4 @@
-import { SequenceMember } from '../types'
+import { SequenceMember } from '../../types'
 
 export const iterateMember = (sequenceMember: SequenceMember, start: number, length: number): number[] => {
   const end = start + length
